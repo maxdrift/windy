@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098933891DF5532B00CBAD40 /* Windy.h in Headers */ = {isa = PBXBuildFile; fileRef = 098933881DF5532B00CBAD40 /* Windy.h */; };
+		0989338B1DF5532B00CBAD40 /* Windy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0989338A1DF5532B00CBAD40 /* Windy.m */; };
+		0989338D1DF5532B00CBAD40 /* Windy.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0989338C1DF5532B00CBAD40 /* Windy.tiff */; };
+		098933901DF5532B00CBAD40 /* Windy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0989338E1DF5532B00CBAD40 /* Windy.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		098933851DF5532B00CBAD40 /* Windy.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Windy.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		098933881DF5532B00CBAD40 /* Windy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Windy.h; sourceTree = "<group>"; };
+		0989338A1DF5532B00CBAD40 /* Windy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Windy.m; sourceTree = "<group>"; };
+		0989338C1DF5532B00CBAD40 /* Windy.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Windy.tiff; sourceTree = "<group>"; };
+		0989338F1DF5532B00CBAD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Windy.xib; sourceTree = "<group>"; };
+		098933911DF5532B00CBAD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		098933811DF5532B00CBAD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0989337B1DF5532B00CBAD40 = {
+			isa = PBXGroup;
+			children = (
+				098933871DF5532B00CBAD40 /* Windy */,
+				098933861DF5532B00CBAD40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		098933861DF5532B00CBAD40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				098933851DF5532B00CBAD40 /* Windy.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		098933871DF5532B00CBAD40 /* Windy */ = {
+			isa = PBXGroup;
+			children = (
+				098933881DF5532B00CBAD40 /* Windy.h */,
+				0989338A1DF5532B00CBAD40 /* Windy.m */,
+				0989338C1DF5532B00CBAD40 /* Windy.tiff */,
+				0989338E1DF5532B00CBAD40 /* Windy.xib */,
+				098933911DF5532B00CBAD40 /* Info.plist */,
+			);
+			path = Windy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		098933821DF5532B00CBAD40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098933891DF5532B00CBAD40 /* Windy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098933841DF5532B00CBAD40 /* Windy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098933941DF5532B00CBAD40 /* Build configuration list for PBXNativeTarget "Windy" */;
+			buildPhases = (
+				098933801DF5532B00CBAD40 /* Sources */,
+				098933811DF5532B00CBAD40 /* Frameworks */,
+				098933821DF5532B00CBAD40 /* Headers */,
+				098933831DF5532B00CBAD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Windy;
+			productName = Windy;
+			productReference = 098933851DF5532B00CBAD40 /* Windy.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0989337C1DF5532B00CBAD40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Riccardo Massari";
+				TargetAttributes = {
+					098933841DF5532B00CBAD40 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GB5V65H7X2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0989337F1DF5532B00CBAD40 /* Build configuration list for PBXProject "Windy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0989337B1DF5532B00CBAD40;
+			productRefGroup = 098933861DF5532B00CBAD40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				098933841DF5532B00CBAD40 /* Windy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		098933831DF5532B00CBAD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0989338D1DF5532B00CBAD40 /* Windy.tiff in Resources */,
+				098933901DF5532B00CBAD40 /* Windy.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098933801DF5532B00CBAD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0989338B1DF5532B00CBAD40 /* Windy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0989338E1DF5532B00CBAD40 /* Windy.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0989338F1DF5532B00CBAD40 /* Base */,
+			);
+			name = Windy.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		098933921DF5532B00CBAD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		098933931DF5532B00CBAD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		098933951DF5532B00CBAD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GB5V65H7X2;
+				INFOPLIST_FILE = Windy/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = org.maxdrift.Windy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		098933961DF5532B00CBAD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GB5V65H7X2;
+				INFOPLIST_FILE = Windy/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = org.maxdrift.Windy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0989337F1DF5532B00CBAD40 /* Build configuration list for PBXProject "Windy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098933921DF5532B00CBAD40 /* Debug */,
+				098933931DF5532B00CBAD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098933941DF5532B00CBAD40 /* Build configuration list for PBXNativeTarget "Windy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098933951DF5532B00CBAD40 /* Debug */,
+				098933961DF5532B00CBAD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0989337C1DF5532B00CBAD40 /* Project object */;
+}
